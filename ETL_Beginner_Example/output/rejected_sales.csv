@@ -1,0 +1,6 @@
+order_id,order_date,amount,rejection_reason
+1003,2026-01-05,,amount must be a valid number
+1002,2026-01-06,5.25,duplicate order_id: 1002
+1004,not-a-date,10.00,order_date must use YYYY-MM-DD format
+1005,2026-01-08,-3.00,amount cannot be negative
+1006,2026-01-09,abc,amount must be a valid number
